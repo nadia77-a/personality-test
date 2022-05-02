@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/font/Roboto.woff2')
+      format('woff2'),
+    url('../assets/font/Roboto.woff')
+      format('woff'),
+    url('../assets/font/Roboto.eot')
+      format('embedded-opentype'),
+    url('../assets/font/Roboto.ttf')
+      format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
